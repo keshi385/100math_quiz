@@ -1,0 +1,36 @@
+ul {
+  list-style: none;
+}
+
+.title {
+  text-align: center;
+}
+
+.math_container {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.math_list {
+  padding: 0;
+  display: grid;
+  grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+  grid-template-columns: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+}
+
+.math_list > li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  color: blue;
+  font-size: 1.5rem;
+}
+
+.btn_reload {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
